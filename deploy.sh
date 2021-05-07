@@ -13,7 +13,7 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io
@@ -22,7 +22,7 @@ git commit -m 'deploy'
 # 部署到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 # 以這個專案來講就要改成這樣以下這樣，下面是走 ssh 模式
-git push -f git@github.com:lcijoyce622/todo-list.git master:gh-pages
+git push -f https://github.com/lcijoyce622/todo-list.git master:gh-pages
 # 除此之外，也可以改走 HTTPS 模式
 # git push -f https://github.com/hsiangfeng/HexfootMusic.git master:gh-pages
 

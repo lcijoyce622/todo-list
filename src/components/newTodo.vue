@@ -50,7 +50,7 @@ export default {
       }
       input {
         background-color: #ffffff;
-        color: white;
+        color: rgb(65, 64, 64);
       }
       button {
         background-color: rgb(92, 168, 255);
